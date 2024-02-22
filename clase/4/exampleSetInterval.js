@@ -15,6 +15,7 @@ const countAsync = () => {
     let timer = setInterval(() => {
         console.log(counter++);
         if (counter > 5) {
+            //console.log("[ASYNC] ¡Tarea finalizada 02!");
             clearInterval(timer);
         }
     }, 1000)
