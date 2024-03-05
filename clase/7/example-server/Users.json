@@ -1,0 +1,16 @@
+[
+	{
+		"id": 1,
+		"firstName": "Joaco",
+		"lastName": "Coder",
+		"age": "29",
+		"course": "Programacion Backend"
+	},
+	{
+		"id": 2,
+		"firstName": "Angel",
+		"lastName": "Altieri",
+		"age": "35",
+		"course": "Diseño UX/UI"
+	}
+]
