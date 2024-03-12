@@ -1,0 +1,1 @@
+console.log("Estoy desde un servidor estático!");
