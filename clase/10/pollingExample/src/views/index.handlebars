@@ -1,0 +1,17 @@
+<h1>Usuarios</h1>
+<div id="users">
+</div>
+
+<script>
+    const usersTag = document.querySelector("#users");
+
+    //Polling Event
+    let count = 1;
+    setInterval(() => {
+        console.log(`Realizo petición ${count}`);
+        fetch("/api/users").then(result => result.json()).then(json => {
+        usersTag.innerHTML = JSON.stringify(json);
+    });
+    count++
+    }, 2000);
+</script>
