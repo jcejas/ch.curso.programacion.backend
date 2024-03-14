@@ -1,0 +1,20 @@
+* {
+    background: #090909;
+    color: white;
+}
+
+hr {
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    background-color: white;
+    color: black;
+}
