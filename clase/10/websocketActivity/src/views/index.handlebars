@@ -3,6 +3,12 @@
     <input id="text-input" class="text-input" type="text">
     <hr>
     <div id="show-text"></div>
+    <hr>
+    <label for="chat-message">Chat Grupal</label>
+    <input id="chat-message" class="chat-message" type="text">
+    <button class="button-chat" onclick="send();">Enviar</button>
+    <hr>
+    <div id="all-messages"></div>
 </div>
 
 <script src="/socket.io/socket.io.js"></script>

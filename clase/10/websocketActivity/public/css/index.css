@@ -18,3 +18,10 @@ input {
     background-color: white;
     color: black;
 }
+
+.button-chat {
+    margin-top: 5px;
+    background-color: #33a033;
+    border-radius: 6px;
+    padding: 5px;
+}
